@@ -195,7 +195,7 @@ static const void *certainTextFieldKey = &certainTextFieldKey;
 #pragma mark Label确定
 - (void)certainAlertAction {
     [self closeView];
-    if(self.cancelAlert != nil){
+    if(self.certainAlert != nil){
         self.certainAlert();
     }
 }
