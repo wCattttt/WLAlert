@@ -6,6 +6,7 @@
 #import "UIViewController+WLAlert.h"
 
 调用：
+    
     [self showMyAlert:@"Alert" withCancelMsg:@"cancel" withCancelBlock:^{
         
     } withCertainMsg:@"ok" withCertainBlock:^{
